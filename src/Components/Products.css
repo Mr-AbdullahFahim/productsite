@@ -49,3 +49,70 @@
 .product-table td:first-child {
     font-weight: bold;
 }
+
+/* Container for the form */
+.product-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Style for the input fields */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Focus effect for input fields */
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #5b9bd5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(91, 155, 213, 0.5);
+}
+
+/* Submit button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add spacing between input fields */
+form {
+    margin-top: 20px;
+}
